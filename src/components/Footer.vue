@@ -3,7 +3,7 @@
         class="text-center"
         cols="12"
         >
-        {{ new Date().getFullYear() }} — Denevy test by M.Chovanec
+        {{ new Date().getFullYear() }} — Test app by M.Chovanec
         </v-col>
 </template>
 
