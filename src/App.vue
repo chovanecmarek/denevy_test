@@ -10,9 +10,6 @@
 
         <v-row>
           <v-col>
-            <Nav/>
-          </v-col>
-          <v-col>
             <div>{{ $t('message.hello') }}</div>
           </v-col>
         </v-row>
@@ -24,22 +21,9 @@
     <v-main class="grey lighten-3">
       <v-container>
         <v-row>
-          <v-col cols="2">
+          <v-col cols="3">
             <v-sheet rounded="lg">
-              <v-list color="transparent">
-                <v-list-item
-                  v-for="n in 5"
-                  :key="n"
-                  link
-                >
-                  <v-list-item-content>
-                    <v-list-item-title>
-                      List Item {{ n }}
-                    </v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-
-              </v-list>
+              <Nav/>
             </v-sheet>
           </v-col>
 
