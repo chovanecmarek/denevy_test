@@ -8,8 +8,15 @@
 
       <v-container class="py-0 fill-height">
 
-      <Nav/>
-
+        <v-row>
+          <v-col>
+            <Nav/>
+          </v-col>
+          <v-col>
+            <div>{{ $t('message.hello') }}</div>
+          </v-col>
+        </v-row>
+        
       </v-container>
 
     </v-app-bar>

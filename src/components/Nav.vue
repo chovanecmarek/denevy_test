@@ -18,7 +18,8 @@
       return {
         links: [
           { id: 1, title: 'Dashboard', url: '/' },
-          { id: 2, title: 'About', url: '/about' },
+          { id: 2, title: 'Jazyk', url: '/language' },
+          { id: 3, title: 'O nás', url: '/about' },
         ],
       }
     },
